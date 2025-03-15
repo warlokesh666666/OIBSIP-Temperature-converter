@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.freepik.com/free-photo/cityscape-sunset_1136-291.jpg?t=st=1742023421~exp=1742027021~hmac=56594cf0ea78f42f5e9723845e0b0722f39e5f22e5fcb2d793b1c8e16b725a30&w=1380') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f9e79f; /* Light yellow to complement the sun theme */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #d35400; /* Orange to match sun theme */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e67e22; /* Orange button to match sun theme */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+.result {
+    margin-top: 15px;
+}
+
+#result {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
